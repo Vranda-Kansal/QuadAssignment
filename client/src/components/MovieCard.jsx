@@ -1,5 +1,4 @@
 const MovieCard = ({ movie }) => {
-  console.log("MovieCard");
   const { language, genres, rating, image, name } = movie;
   const { average } = rating;
 

@@ -4,13 +4,11 @@ import MovieCard from "./MovieCard";
 import { Link } from "react-router-dom";
 
 const ListMovies = () => {
-  console.log("ListMovies");
   const [allMovies, setAllMovies] = useState([]);
 
   const fetchMovies = async () => {
     const data = await fetch(url);
     const movies = await data.json();
-    // console.log(movies);
     setAllMovies(movies);
   };
 
