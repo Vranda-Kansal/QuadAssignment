@@ -39,7 +39,7 @@ const BookingForm = ({ movieData }) => {
   }, []);
 
   return (
-    <div className="w-1/2 m-5 p-2 mx-auto max-h-96 h-96 bg-yellow-200  rounded my-7">
+    <div className="w-1/2 m-5 p-2 mx-auto  h-full bg-yellow-200  rounded my-7">
       <form onSubmit={(e) => e.preventDefault()}>
         <h1 className=" text-4xl font-bold text-center text-amber-800 my-2 py-2">
           Book Ticket
